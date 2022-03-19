@@ -1,0 +1,78 @@
+/* COLECTIONS */
+.colections-div {
+  padding: 40px;
+  margin: 120px 0;
+}
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 40px 0;
+  padding-bottom: 60px;
+}
+.colections-slider {
+  display: flex;
+}
+
+.slick-prev,
+.slick-next {
+  text-align: center;
+  padding: 10px;
+  border-radius: 40%;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  position: absolute;
+  cursor: pointer;
+  color: #262626;
+  opacity: 0.9;
+  transform: scale(1.3);
+  top: 50%;
+  z-index: 5;
+}
+.slick-prev {
+  top: 50%;
+  left: -25px;
+}
+.slick-next {
+  right: -25px;
+  top: 50%;
+  /* bottom: 0; */
+}
+.slick-prev:hover {
+  background: #f2f2f2;
+  opacity: 0.99;
+  left: -30px;
+}
+.slick-next:hover {
+  background: #f2f2f2;
+  opacity: 0.99;
+  right: -30px;
+}
+
+.colections__item {
+}
+.colections__item-img {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 402px;
+  background: linear-gradient(89.97deg, #efefef -33.42%, #e3e3e3 132.09%);
+}
+.colections__item-info {
+}
+.colections__item-info-txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  margin: 10px 0;
+}
+.colections__item-info-price {
+  color: #545454;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.colections__item-currency {
+}

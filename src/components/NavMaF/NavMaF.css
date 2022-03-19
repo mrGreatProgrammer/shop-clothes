@@ -1,0 +1,41 @@
+.header__nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #252525;
+    border: none;
+    background: transparent;
+    z-index: 1000;
+  }
+  .header__nav-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #FF8A00;
+    text-decoration-thickness: 5px;
+  }
+
+  .one {
+    margin-right: 8px;
+  }
+  .two {
+    margin-left: 8px;
+  }
+  
+  .mf{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+  
+  .mf--active{
+    display: block;
+  }
+  

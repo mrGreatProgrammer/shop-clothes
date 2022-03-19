@@ -1,0 +1,323 @@
+.thebusket {
+}
+.busket {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 397px;
+  height: 878px;
+  top: 0;
+  right: 0;
+  padding: 30px 20px;
+  z-index: 2;
+  background: #fff;
+  display: block;
+  transition: all 0.6s;
+}
+.exit {
+  position: absolute;
+  top: 40%;
+  /* bottom: 0; */
+  right: 397px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  background: #aaa;
+  border-radius: 15px 0 0 15px;
+}
+.exit-dcr {
+  font-weight: 400;
+  transform: rotateZ(0deg);
+  transition: 0.5s all;
+}
+.exit-dcr-l {
+  font-weight: 400;
+  transform: rotateZ(180deg);
+}
+.busket-hidden {
+  right: -397px;
+}
+/* ITEM IN BUCKET */
+.item-in-busket {
+  display: grid;
+  /* gap: 5px; */
+  /* column-gap: 5px; */
+  grid-template-columns: 1fr 1.5fr;
+  padding: 15px 0;
+  border-bottom: 2px dashed #d3d3d3;
+}
+
+.b {
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33.6px;
+  margin-bottom: 15px;
+}
+.desc {
+  /* color: #D3D3D3; */
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.item__busket-left {
+  margin-right: 7px;
+}
+
+.stuff__name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.item__busket-description--view {
+  margin-bottom: 17px;
+}
+
+.stuff__color {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.8px;
+  color: #252525;
+}
+.stuff__size {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.8px;
+  color: #252525;
+}
+
+.item__busket-img {
+  /* width: 140.91px; */
+  height: 180.26px;
+}
+
+.minus {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.plus {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.stuff-amount {
+  /* display: inline-block; */
+  width: 30px;
+  height: 30px;
+  text-align: center;
+
+  border: 1px solid #eee;
+  /* padding: 2px; */
+  /* background: #aaa; */
+  font-size: 14px;
+  font-weight: 400;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.item__busket-description--order {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 17px;
+}
+.items-in-busket{
+  overflow-y: scroll;
+}
+.stuff-cost {
+  align-self: end;
+}
+.stuff-currency {
+  /* justify-self: end; */
+  align-self: end;
+}
+.stuff--pre-order {
+  color: #ff8a00;
+  font-size: 12px;
+  line-height: 16.8px;
+  font-weight: 400;
+  align-self: end;
+}
+.stuff-bin {
+  justify-self: end;
+}
+
+.amount-of-stuff {
+  display: flex;
+  justify-content: space-between;
+}
+.amount-items {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #252525;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.the-amount {
+}
+.amount-of-stuff-cost {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #252525;
+  margin-top: 25px;
+}
+.total-cost {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-bottom: 10px;
+}
+
+.total-cost p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.total-cost-items {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.oz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background: #ff8a00;
+  color: #fff;
+  width: 357px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  border: none;
+  margin-top: 20px;
+}
+
+/* LEFT BUSKET */
+.busket_item-img {
+  top: 0;
+  left: 281px;
+  background-image: url("../img/items-img/12.png");
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1015px;
+  height: 861px;
+  z-index: -1;
+}
+.left_busket-content {
+  width: 407px;
+  margin-left: 30px;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+}
+.left_busket-item--name {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.left_busket-item--name p {
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39.2px;
+}
+
+.item_model {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 39.2px;
+}
+.left_busket-item--description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.5;
+  margin: 15px 0;
+}
+
+.left_busket-item--price {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.theprice {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #252525;
+  margin-right: 15px;
+}
+.currency {
+}
+.theprice--striked {
+  color: #818181;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.8px;
+  text-decoration: line-through;
+}
+.left_busket-item--btn-buy {
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.btn-buy {
+  width: 230px;
+  height: 45px;
+  background: #ff8a00;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  border: none;
+}
+.left_busket--slider {
+  /* margin-top: 70px;
+  margin-bottom: 30px; */
+}
+.left_busket--slider-btn {
+  border: none;
+  color: #252525;
+  background: transparent;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 20px;
+}
+.left {
+}
+.right {
+}
+
+.thenumwhichslide {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31.69px;
+}
+.amountofslide {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.94px;
+  opacity: 0.8;
+}

@@ -1,0 +1,37 @@
+footer{
+    padding: 50px 20px;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .in-footer{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  
+  .footer__nav-item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 30px;
+  }
+  .footer__nav-item:first-child{
+    margin-left: 0;
+  }
+  
+  .footer-social-media{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    color: #545454;
+  }
+  
+  .vk{
+    margin-right: 20px;
+  }

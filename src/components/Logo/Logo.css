@@ -1,0 +1,22 @@
+.logo {
+    background: #ffffff;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.98;
+    text-align: center;
+  }
+  .logo-in--header{
+    padding: 5px 10px;
+    margin-right: 250px;
+  }
+
+  .logo a{
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+  }

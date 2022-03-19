@@ -1,0 +1,43 @@
+/* ABOUT US */
+.about__us-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 170px;
+  justify-content: stretch;
+  margin: 50px 0;
+}
+/* .about__us-content {
+    display: grid;
+  
+    margin: 170px 0;
+  } */
+.about__us-text {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+h4 {
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.about__us-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin: 50px 0;
+  padding-right: 150px;
+}
+.about__us-img-div {
+  width: 671px;
+  height: 579px;
+  background: #c4c4c4;
+}
+.about__us-img {
+  width: 671px;
+  height: 579px;
+}

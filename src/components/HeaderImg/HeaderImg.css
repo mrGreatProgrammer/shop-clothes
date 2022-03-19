@@ -1,0 +1,29 @@
+.header__title {
+    z-index: -1;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  /* position: absolute; */
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/header-imgs/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 842px;
+  margin: 230px auto;
+}

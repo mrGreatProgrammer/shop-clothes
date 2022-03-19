@@ -1,0 +1,142 @@
+.menu__btn {
+  z-index: 10;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu__btn-img {
+  z-index: 10;
+  display: grid;
+  padding-top: 3px;
+  grid-template-rows: 7px 7px;
+  padding-right: 40px;
+}
+/* Rectangle 25 */
+.menu__img-one {
+  width: 20px;
+  height: 2px;
+  background: #424242;
+}
+/* Rectangle 26 */
+.menu__img-two {
+  width: 20px;
+  height: 2px;
+  background: #424242;
+}
+
+.menu__btn-name {
+  z-index: 10;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  /* Основной цвет текста */
+  color: #252525;
+  margin-left: -27px;
+}
+
+
+.menu__list{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    position: absolute;
+    /* bottom: 0; */
+    right: 0;
+    left: 0;
+    top: -120%;
+    /* padding: 76px 30px; */
+    display: flex;
+    z-index: 8;
+    transition: all .8s;
+    /* justify-content: space-between; */
+  }
+  
+  .menu__list--active{
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  .menu__list-left{
+    padding-left: 30px;
+    padding-top: 76px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 0px 10px 0px #000;
+  }
+  
+  .menu__list-left-item{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    text-transform: uppercase;
+    color: #252525;
+    opacity: .5;
+  }
+  
+  .menu__list-left-item--active{
+    opacity: 1;
+  }
+
+  
+.menu__list-left-item--active{
+  opacity: 1;
+}
+
+.menu__list-right{
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin-left: 7px;
+  padding-left: 63px;
+  padding-top: 35px;
+  /* align-items: center; */
+}
+.menu__list-right--title{
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #252525;
+  text-transform: uppercase;
+}
+.menu__list-right--catigories{
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+}
+.menu__list-right--catigories div + div{
+  margin-left: 100px;
+}
+/* .menu__list-right--catigory-four{
+  
+} */
+
+.menu__list-right--catigory-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+
+}
+
+.menu__list-right--items{
+  display: block;
+}
+
+.menu__list-right-item{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.63px;
+}
+
+.menu__list-right-item + .menu__list-right-item{
+  margin: 15px 0;
+  
+}
